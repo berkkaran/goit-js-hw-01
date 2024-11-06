@@ -1,4 +1,4 @@
-function getElementWidth(content="Npx", padding="Npx", border="Npx") {
+function getElementWidth(content = "Npx", padding = "Npx", border = "Npx") {
   let contentWidth = parseFloat(content);
   let paddingValue = parseFloat(padding);
   let borderThickness = parseFloat(border);
